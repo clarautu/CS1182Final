@@ -1,0 +1,18 @@
+﻿<Window x:Class="Deliverable7.frmLoadScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deliverable7"
+        mc:Ignorable="d"
+        Title="frmLoadScreen" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="lblWelcomeAndTitle" Content="Welcome To Dungeon Explorer" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold"/>
+        <Label x:Name="lblPickSomething" Content="What Would You Like to Do?" HorizontalAlignment="Center" Margin="0,200,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="btnNewGame" Content="Start a New Adventure" HorizontalAlignment="Left" Margin="200,100,0,0" VerticalAlignment="Center" Width="170" Height="26" Click="BtnNewGame_Click"/>
+        <Button x:Name="btnLoadGame" Content="Continue Your Old Adventure" HorizontalAlignment="Right" Margin="0,100,200,0" VerticalAlignment="Center" Width="170" Height="26" Click="BtnLoadGame_Click"/>
+        <Button x:Name="btnViewCredits" Content="View Credtis" HorizontalAlignment="Center" Margin="0,0,0,50" VerticalAlignment="Bottom" Width="75" Click="BtnViewCredits_Click"/>
+        <CheckBox x:Name="chkChangeMapDimensions" Content="Change Map Dimensions?" HorizontalAlignment="Left" Margin="200,279,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

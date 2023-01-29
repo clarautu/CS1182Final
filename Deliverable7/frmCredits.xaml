@@ -1,0 +1,15 @@
+﻿<Window x:Class="Deliverable7.frmCredits"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deliverable7"
+        mc:Ignorable="d"
+        Title="frmCredits" Height="221.069" Width="443.885" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="lblMadeBy" Content="Everything was made by Autumn Clark" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="lblBoast" Content="I know I'm awesome" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Center" FontSize="16"/>
+        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Left" Margin="186,169,0,0" VerticalAlignment="Top" Width="75" Click="BtnClose_Click"/>
+
+    </Grid>
+</Window>
